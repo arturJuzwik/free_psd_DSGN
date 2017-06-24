@@ -1,0 +1,452 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>weekly Web Dev Challenge - 8</title>
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" title="bootstrap">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+		<header>
+			<nav class="container-fluid navbar-fixed-top">
+				<div class="bar ">
+					<span class="dsgnLogo">DSGN</span>
+					<div class="socialElement">
+						<a href="#"><img src="img/images/facebook.jpg" class="facebook-media"></a>
+						<a href="#"><img src="img/images/instagram.gif" class="instagram-media"></a>
+						<a href="#"><img src="img/images/twitter.gif" class="twitter-media"></a>
+						<a href="#"><img src="img/images/linked.gif" class="linked-media"></a>
+					</div>
+					<div class="menu-li">
+						<div class="menu-wrap">
+							<button class="menu-button::before menu-button menu-button:after" onclick="toggling();"></button>
+							<span class="menu-sign">MENU</span>
+							<div id="menu" class="menu-content">
+								<ol>	
+									<a href="#main"><li>MAIN</li></a>
+									<a href="#we"><li>WE</li></a>
+									<a href="#portfolio"><li>PORTFOLIO</li></a>
+									<a href="#contact"><li>CONTACT</li></a>
+								</ol>	
+							</div>
+						</div>
+					</div>
+				</div> 
+			</nav>
+			
+			<div class="slider container-fluid">
+				<h2 class="slider-h2">Need our help?</h2>
+				<span class="slider-span">TOP DESIGNERS</span>
+				<a href="#main">
+					<button class="slider-button">CHECK US</button>
+				</a>
+				<div class="arrows-container">
+					<span class="glyphicon glyphicon-menu-down bouncing-arrows"</span>
+					<span class="glyphicon glyphicon-menu-down bouncing-arrows"</span>
+				</div>
+			</div>
+		</header>
+		
+		<!-- section : progres bars-->
+		<section id="main" class="progress-bars-section container-fluid">
+			<div>
+				<div class="first-progress-bar" value="50">
+					<span id="label-1" class="">BIG PROJECTS</span>
+				</div>
+				<p id="circle-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.incid iduntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+			</div>
+			
+			<div>
+				<div class="second-progress-bar" value="35">
+					<span id="label-2" class="">CLIENTS</span>
+				</div>
+				<p id="circle-p2">Ipsum dolor sit amet, consectetur adipisicing elit, sed incididunt!
+				ut labore et dolore magna aliqua. Ut enim ad minim ven </p>
+			</div>
+			<div>
+				<div class="third-progress-bar" value="80">
+					<span id="label-3" class="">MONTHS</span>
+				</div>
+				<p id="circle-p3">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+			</div>
+		</section>
+		<!-- section : our team -->
+		<section id="we" class="our-team">
+			<div class="our-team-banner">
+				<div class="banner-frame">
+					<span class="banner-meet-us">Meet us!</span>
+					<h3 class="our-team-h3">OUR TEAM</h3>
+				</div>
+			</div>
+			
+			<div class="team-member-container">
+					<div class="adrianna-photo">
+						<div class="photo-frame-left">
+							
+						</div>
+					</div>
+					<div class="adrianna-text">
+							<h4 class="team-member-name">
+								ADRIANNA
+							</h4>
+							<span class="occupation">
+								senior graphic designer
+							</span>
+							<p class="occupation-description">She is the graphic designer with<br> 3 years of professional experience</p>
+					</div>
+			</div>
+			
+			<div class="team-member-container">
+				<div class="olivia-text">
+					<h4 class="team-member-name">
+						OLIVIA
+					</h4>
+					<span class="occupation">
+						Art Director
+					</span>
+					<p class="occupation-description">She is the art director with<br> 8 years of professional experience</p>
+				</div>
+				<div class="olivia-container">
+					<div class="olivia-photo">
+						<div class="photo-frame-right">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="team-member-container">
+				<div class="thomas-container">
+					<div class="thomas-photo">
+						<div class="photo-frame-left">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="thomas-text">
+					<h4 class="team-member-name">
+						THOMAS
+					</h4>
+					<span class=occupation>
+						Software Engineer
+					</span>
+					<p class="occupation-description">He is a software engineer with<br> 5 years of professional experience</p>
+				</div>
+			</div>
+			
+			<div class="team-member-container">
+				<div class="taylor-text">
+					<h4 class="team-member-name">
+						TAYLOR
+					</h4>
+					<span class=occupation>
+						CEO
+					</span>
+					<p class="occupation-description">She is the boss in here</p>
+				</div>
+				<div class="taylor-container">
+					<div class="taylor-photo">
+						<div class="photo-frame-right">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</section>
+		<!-- section: portfolio -->
+		<section id="portfolio" class="portfolio">
+			<div class="portfolio-banner">
+				<div class="banner-frame">
+					<span class="portfolio-check-out">Check out our projects</span>
+					<h3 class="our-team-h3">PORTFOLIO</h3>
+				</div>
+			</div>
+			
+			<div class="portfolio-container">
+				<div>
+					<a href="" class="portfolio-href">
+						<img class="portfolio-photo" src="img/images/portfolio_item_1.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_2.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_3.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_4.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_5.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_6.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_7.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_8.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_9.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_10.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_11.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_12.jpg">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_13.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_14.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_15.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_16.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_17.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_18.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_19.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_20.gif">
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<img class="portfolio-photo" src="img/images/portfolio_item_21.jpg">
+					</a>
+					</div>
+			</div>
+		</section>
+		
+		<!-- section: our brands -->
+		<section class="brands">
+			<div class="our-brands-banner">
+				<div class="banner-frame">
+					<span class="banner-working-for">We working for</span>
+					<h3 class="our-brands-h3">BRANDS</h3>
+				</div>
+			</div>
+				
+				<div class="brands-center">
+					<div class="brands-container">
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-1"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-2"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-3"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-4"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-5"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-6"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-7"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-8"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-9"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-10"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-11"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-12"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-13"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-14"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-15"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-16"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-17"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-18"></div>
+							</a>
+						</div><div class="one-brand-container">
+							<a href="#">
+								<div class="brand-19"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-20"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-21"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-22"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-23"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-24"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-25"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-26"></div>
+							</a>
+						</div>
+						<div class="one-brand-container">
+							<a href="#">
+								<div class="brand-27"></div>
+							</a>
+						</div>	
+					</div>
+				</div>
+		</section>
+		<footer id="contact" class="footer">
+			<div class="contact-contact">
+				<div class="our-team-footer">
+					<h5 class="our-team-h5">OUR TEAM</h5>
+					<p class="footer-p">We are the best<br>company in the<br>entire word</p>
+				</div>
+				<div class="about-footer">
+					<h5 class="about-h5">ABOUT</h5>
+					<p class="about-p">We are the best<br>company in the<br>entire word</p>
+				</div>
+				<div class="contact-footer">
+					<h5 class="contact-h5">CONTACT</h5>
+					<adress class="adress">
+						<a href:"mailto:free@template.com">free@template.com</a><br>
+						www.freetemplate.com<br>
+						<a href:"tel:+48123456789">tel: +48 123 456 789</a>
+					</adress>
+				</div>
+			</div>
+			<div class="copyright">Copyright &copy; DSGN free use</div>
+		</footer>
+	<script type="text/javascript" src="javascript.js"></script>
+	</body>
+</html>
