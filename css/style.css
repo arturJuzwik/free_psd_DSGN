@@ -1,12 +1,12 @@
 a,a:hover{
-	color:white;
+	color:inherit;
 }
 html,body{
 	min-height: 100%;
 	width:100%;
 	margin:0;
 	padding:0;
-	height:2000px;
+	
 	font-family:"Quicksand";
 }
 body{
@@ -34,6 +34,7 @@ end of Bootstrap overwriting
 	justify-content:space-between;
 }
 .dsgnLogo{
+	text-transform: uppercase;
 	border:solid;
 	border-color:#f9a39c;
 	border-bottom-left-radius: 15px;
@@ -50,6 +51,7 @@ end of Bootstrap overwriting
 	font-family:'Quicksand';
 	font-size:20px;
 	font-weight: 300;
+	color:black;
 }
 
 .socialElement{
@@ -63,6 +65,14 @@ order:2;
 }
 .socialElement>a:last-child{
 	padding-right:30px;
+}
+.facebook-media,.instagram-media,.twitter-media,.linked-media{
+	transition:transform .5s ease-in-out;
+}
+.facebook-media:hover,.instagram-media:hover,.twitter-media:hover,.linked-media:hover{
+	-webkit-transform:rotate(-360deg);
+	-moz-transform:rotate(-360deg);
+	transform:rotate(-360deg);
 }
 .menu-li{
 	background-color: #101010;
@@ -80,6 +90,7 @@ order:2;
 	flex-direction:row;
 }
 .menu-sign{
+	text-transform: uppercase;
 	margin:auto;
 	font-size:20px;
 	font-family: 'Quicksand';
@@ -141,10 +152,12 @@ a:hover{
 li{
 	padding-right:20px;
 }
-ul,li{
+ol,li{
+	text-transform: uppercase;
 	list-style-type: none;
 	color:white;
 	font-weight: 200;
+	font-family: quicksand;
 }
 .slider{
 	background-image: url(../img/images/Free-psd-template-desktop_02.jpg);
@@ -152,7 +165,7 @@ ul,li{
 	color:white;
 	background-size: cover;
 	width:100%;
-	min-height:85vh;
+	min-height:89vh;
 	display:flex;
 	align-items:center;
 	justify-content: center;
@@ -181,21 +194,32 @@ ul,li{
 	left:0.5em;
 }
 .slider-span{
+	text-transform: uppercase;
 	font-size:72px;
 	margin-top:-15px;
 }
 .slider-button{
+	text-transform: uppercase;
 	margin-top:20px;
 	background:none;
 	border:1px solid white;
 	padding:10px 50px 10px 50px;
 	border-radius:25px;
 	font-size:18px;
+	transition:background-color .5s ease;
+	transition:color .5s ease;
+}
+.slider-button:hover{
+	background-color:white;
+	color:black;
+	border:1px solid black;
 }
 .arrows-container{
 	position:relative;
 	top:100px;
-	-webkit-animation:bounce 2.4s infinite ease-in-out;
+	-webkit-animation:bounce 2s infinite ease-in-out;
+	-moz-animation:bounce 2s infinite ease-in-out;
+	animation:bounce 2s infinite ease-in-out;
 }
 @-webkit-keyframes bounce{
 	0%,20%,60%,100% {-webkit-transform:translateY(0);}
@@ -212,6 +236,7 @@ ul,li{
 	background: white;
 	display:flex;
 	justify-content:space-around;
+	padding-top:80px;
 }
 .progress-bars-section>div{
 	height:218px;
@@ -247,6 +272,9 @@ ul,li{
 	font-weight:500;
 	display:block !important;
 }
+#label-1,#label-2,#label-3{
+	text-transform: uppercase;
+}
 #circle-p1,#circle-p2,#circle-p3{
 	display:none;
 	transition: opacity 5s;
@@ -259,6 +287,10 @@ ul,li{
 	margin-top:-15px !important;
 	font-family:'Quicksand';
 	font-weight:700;
+}
+.our-team{
+	padding-top:78px;
+	margin-top:50px;
 }
 .our-team-banner{
 	background-image: url('../img/images/ourTeam.jpg');
@@ -302,6 +334,7 @@ ul,li{
 	margin-top:-5px;
 	font-family:'Quicksand';
 	font-weight: 700;
+	text-transform: uppercase;
 }
 .team-member-container{
 	display:flex;
@@ -358,6 +391,7 @@ ul,li{
 	font-weight: 500;
 	font-size:36px;
 	margin:50px 0 0 0;
+	text-transform: uppercase;
 }
 .occupation{
 	font-size:16px;
@@ -406,6 +440,9 @@ ul,li{
 	width:588px;
 }
 /** portfolio **/
+.portfolio{
+	padding-top:59px;
+}
 .portfolio-banner{
 	background-image:url(../img/images/projects.jpg);
 	background-size:cover;
@@ -448,7 +485,7 @@ ul,li{
 	background-repeat: no-repeat;
 	height:300px;
 	width:100%;
-	margin:20px 0 0 0;
+	margin:50px 0 0 0;
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -515,7 +552,7 @@ ul,li{
 	justify-content: center;
 }
 .footer{
-	margin-top:30px;
+	padding-top:78px;
 }
 .contact-footer{
 	margin-bottom:-15px;
@@ -536,10 +573,15 @@ ul,li{
 	margin-bottom:25px;
 	padding-bottom:15px;
 	border-bottom:1px solid #009989;
+	text-transform: uppercase;
 }
 .footer-p,.about-p,.adress{
 	font-size:18px;
 	color:#4a4a4a;
+	width:250px;
+	height:70px;
+	display:block;
+	margin:0 auto;
 }
 .adress>a{
 	color:#4a4a4a;
@@ -551,23 +593,22 @@ ul,li{
 	color:#2a2a29;
 	padding-top:20px;
 }
+
+
+
+
+
+
+
+
+/*media queries*/
+
+
+
 @media (min-width:737px) and (max-width:1216px){
 	.portfolio-container>div{
 		flex-basis:180px;
 		max-height:180px;
-	}
-}
-@media (min-width:497px) and (max-width:736px){
-	.portfolio-container>div{
-		flex-basis:125px;
-		max-height:135px;
-		max-width:150px;
-	}
-}
-@media (min-width:0px) and (max-width:496px){
-	.portfolio-container>div{
-	flex-basis:150px;
-	max-height:200px;
 	}
 }
 @media  (min-width:0px) and (max-width:991px){
@@ -652,6 +693,22 @@ ul,li{
 	}
 	
 }
+@media (min-width:0) and (max-width:766px){
+		.contact-contact{
+		flex-direction:column;
+		height:700px;
+	}
+	.about-h5,.contact-h5{
+		margin-top:20px;
+	}
+}
+@media (min-width:497px) and (max-width:736px){
+	.portfolio-container>div{
+		flex-basis:125px;
+		max-height:135px;
+		max-width:150px;
+	}
+}
 @media (max-width:609px) and (min-width:0){
 		.socialElement>a>img{
 		width:23px;
@@ -676,7 +733,7 @@ ul,li{
 		margin-bottom:30px;
 	}
 	.slider-h2:after,.slider-h2:before{
-		width:80px;
+		width:70px;
 	}
 	.slider-button{
 		margin-bottom:-30px;
@@ -685,10 +742,15 @@ ul,li{
 		top:40px;
 		line-height: 0;
 	}
-	.contact-contact{
-		flex-direction:column;
+}
+@media (min-width:0px) and (max-width:496px){
+	.portfolio-container>div{
+	flex-basis:150px;
+	max-height:200px;
 	}
-	
+	.occupation-description{
+		margin-top:10px;
+	}
 }
 @media (min-width:0) and (max-width:320px){
 	.socialElement>a:last-child{
