@@ -206,13 +206,11 @@ ol,li{
 	padding:10px 50px 10px 50px;
 	border-radius:25px;
 	font-size:18px;
-	transition:background-color .5s ease;
-	transition:color .5s ease;
+	transition:background-color.5s ease,color .5s ease;
 }
 .slider-button:hover{
 	background-color:white;
 	color:black;
-	border:1px solid black;
 }
 .arrows-container{
 	position:relative;
