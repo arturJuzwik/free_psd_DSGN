@@ -206,13 +206,11 @@ ol,li{
 	padding:10px 50px 10px 50px;
 	border-radius:25px;
 	font-size:18px;
-	transition:background-color .5s ease;
-	transition:color .5s ease;
+	transition:background-color.5s ease,color .5s ease;
 }
 .slider-button:hover{
 	background-color:white;
 	color:black;
-	border:1px solid black;
 }
 .arrows-container{
 	position:relative;
@@ -501,7 +499,7 @@ ol,li{
 	opacity:0.2;
 	transition:opacity 1s;
 	filter:grayscale(80%);
-	transition:filter 1s linear;
+	transition:all 0.2s linear;
 }
 .one-brand-container:hover{
 	opacity:1;
@@ -514,7 +512,7 @@ ol,li{
 	margin:0 auto;
 	top:40px;
 }
-.brand-1,.brand-2,.brand-3,.brand-4,.brand-5,.brand-6,.brand-7,.brand-8,.brand-9,.brand-10,.brand-11,.brand-12,.brand-13,.brand-14,.brand-15,.brand-16,.brand-17,.brand-18,.brand-19,.brand-20,.brand-21,.brand-22,.brand-23,.brand-24,.brand-25,.brand-26,.brand-27{
+.brand{
 	width:60px;
 	height:60px;
 	background-repeat: no-repeat;
