@@ -1,11 +1,10 @@
 <!Doctype HTML>
-<html>
+<html lang="pl">
 	<head>
+		<meta charset="utf-8">
 		<title>weekly Web Dev Challenge - 8</title>
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" title="bootstrap">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -14,23 +13,51 @@
 		<header>
 			<nav class="container-fluid navbar-fixed-top">
 				<div class="bar ">
-					<span class="dsgnLogo">DSGN</span>
+					<a href="artjuzwik.github.io/free_psd_DSGN/">
+						<span class="dsgnLogo">
+							dsgn
+						</span>
+					</a>
 					<div class="socialElement">
-						<a href="#"><img src="img/images/facebook.jpg" class="facebook-media"></a>
-						<a href="#"><img src="img/images/instagram.gif" class="instagram-media"></a>
-						<a href="#"><img src="img/images/twitter.gif" class="twitter-media"></a>
-						<a href="#"><img src="img/images/linked.gif" class="linked-media"></a>
+						<a href="#">
+							<img alt="link do Facebooka" src="img/images/facebook.jpg" class="facebook-media">
+						</a>
+						<a href="#">
+							<img alt="link do Instagram" src="img/images/instagram.gif" class="instagram-media">
+						</a>
+						<a href="#">
+							<img alt="link do Twittera" src="img/images/twitter.gif" class="twitter-media">
+						</a>
+						<a href="#">
+							<img alt="link do LinkedIn" src="img/images/linked.gif" class="linked-media">
+						</a>
 					</div>
 					<div class="menu-li">
 						<div class="menu-wrap">
-							<button class="menu-button::before menu-button menu-button:after" onclick="toggling();"></button>
-							<span class="menu-sign">MENU</span>
+							<button class="menu-button::before menu-button menu-button:after"></button>
+							<span class="menu-sign">menu</span>
 							<div id="menu" class="menu-content">
 								<ol>	
-									<a href="#main"><li>MAIN</li></a>
-									<a href="#we"><li>WE</li></a>
-									<a href="#portfolio"><li>PORTFOLIO</li></a>
-									<a href="#contact"><li>CONTACT</li></a>
+									<li>
+										<a href="#main">
+											main
+										</a>
+									</li>
+									<li>
+										<a href="#we">
+											we
+										</a>
+									</li>
+									<li>
+										<a href="#portfolio">
+											portfolio
+										</a>
+									</li>
+									<li>
+										<a href="#contact">
+											contact
+										</a>
+									</li>
 								</ol>	
 							</div>
 						</div>
@@ -39,14 +66,18 @@
 			</nav>
 			
 			<div class="slider container-fluid">
-				<h2 class="slider-h2">Need our help?</h2>
-				<span class="slider-span">TOP DESIGNERS</span>
-				<a href="#main">
-					<button class="slider-button">CHECK US</button>
-				</a>
+				<h2 class="slider-h2">
+					Need our help?
+				</h2>
+				<span class="slider-span">top designers</span>
+					<button class="slider-button">
+						<a href="#main">
+							check us
+						</a>
+					</button>
 				<div class="arrows-container">
-					<span class="glyphicon glyphicon-menu-down bouncing-arrows"</span>
-					<span class="glyphicon glyphicon-menu-down bouncing-arrows"</span>
+					<span class="glyphicon glyphicon-menu-down bouncing-arrows"></span>
+					<span class="glyphicon glyphicon-menu-down bouncing-arrows"></span>
 				</div>
 			</div>
 		</header>
@@ -55,66 +86,81 @@
 		<section id="main" class="progress-bars-section container-fluid">
 			<div>
 				<div class="first-progress-bar" value="50">
-					<span id="label-1" class="">BIG PROJECTS</span>
+					<span id="label-1">
+						big projects
+					</span>
 				</div>
-				<p id="circle-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.incid iduntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+				<p id="circle-p1">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.incid iduntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+				</p>
 			</div>
 			
 			<div>
 				<div class="second-progress-bar" value="35">
-					<span id="label-2" class="">CLIENTS</span>
+					<span id="label-2">
+						clients
+					</span>
 				</div>
-				<p id="circle-p2">Ipsum dolor sit amet, consectetur adipisicing elit, sed incididunt!
-				ut labore et dolore magna aliqua. Ut enim ad minim ven </p>
+				<p id="circle-p2">
+					Suspendisse orci arcu, suscipit sit amet dolor non, gravida dapibus purus. Nunc non odio posuere, pretium lacus et, sodales arcu. Mauris tellus lorem, iaculis non eros at.
+				</p>
 			</div>
 			<div>
 				<div class="third-progress-bar" value="80">
-					<span id="label-3" class="">MONTHS</span>
+					<span id="label-3">
+						months
+					</span>
 				</div>
-				<p id="circle-p3">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+				<p id="circle-p3">
+					Aenean a arcu at orci dictum placerat. Vivamus quis consequat sem, quis tristique est. In cursus pharetra ante, sed fringilla metus gravida at. Vivamus condimentum odio.
+				</p>
 			</div>
 		</section>
 		<!-- section : our team -->
 		<section id="we" class="our-team">
 			<div class="our-team-banner">
 				<div class="banner-frame">
-					<span class="banner-meet-us">Meet us!</span>
-					<h3 class="our-team-h3">OUR TEAM</h3>
+					<span class="banner-meet-us">
+						Meet us!
+					</span>
+					<h3 class="our-team-h3">
+						our-team
+					</h3>
 				</div>
 			</div>
 			
 			<div class="team-member-container">
 					<div class="adrianna-photo">
-						<div class="photo-frame-left">
-							
-						</div>
+						<div class="photo-frame-left"></div>
 					</div>
 					<div class="adrianna-text">
 							<h4 class="team-member-name">
-								ADRIANNA
+								adrianna
 							</h4>
 							<span class="occupation">
 								senior graphic designer
 							</span>
-							<p class="occupation-description">She is the graphic designer with<br> 3 years of professional experience</p>
+							<p class="occupation-description">
+								She is the graphic designer with<br> 3 years of professional experience
+							</p>
 					</div>
 			</div>
 			
 			<div class="team-member-container">
 				<div class="olivia-text">
 					<h4 class="team-member-name">
-						OLIVIA
+						olivia
 					</h4>
 					<span class="occupation">
 						Art Director
 					</span>
-					<p class="occupation-description">She is the art director with<br> 8 years of professional experience</p>
+					<p class="occupation-description">
+						She is the art director with<br> 8 years of professional experience
+					</p>
 				</div>
 				<div class="olivia-container">
 					<div class="olivia-photo">
-						<div class="photo-frame-right">
-							
-						</div>
+						<div class="photo-frame-right"></div>
 					</div>
 				</div>
 			</div>
@@ -122,157 +168,160 @@
 			<div class="team-member-container">
 				<div class="thomas-container">
 					<div class="thomas-photo">
-						<div class="photo-frame-left">
-							
-						</div>
+						<div class="photo-frame-left"></div>
 					</div>
 				</div>
 				
 				<div class="thomas-text">
 					<h4 class="team-member-name">
-						THOMAS
+						thomas
 					</h4>
 					<span class=occupation>
 						Software Engineer
 					</span>
-					<p class="occupation-description">He is a software engineer with<br> 5 years of professional experience</p>
+					<p class="occupation-description">
+						He is a software engineer with<br> 5 years of professional experience
+					</p>
 				</div>
 			</div>
 			
 			<div class="team-member-container">
 				<div class="taylor-text">
 					<h4 class="team-member-name">
-						TAYLOR
+						taylor
 					</h4>
 					<span class=occupation>
 						CEO
 					</span>
-					<p class="occupation-description">She is the boss in here</p>
+					<p class="occupation-description">
+						She is the boss in here
+					</p>
 				</div>
 				<div class="taylor-container">
 					<div class="taylor-photo">
-						<div class="photo-frame-right">
-							
-						</div>
+						<div class="photo-frame-right"></div>
 					</div>
 				</div>
 			</div>
-			
-			
 		</section>
+		
 		<!-- section: portfolio -->
 		<section id="portfolio" class="portfolio">
 			<div class="portfolio-banner">
 				<div class="banner-frame">
-					<span class="portfolio-check-out">Check out our projects</span>
-					<h3 class="our-team-h3">PORTFOLIO</h3>
+					<span class="portfolio-check-out">
+						Check out our projects
+					</span>
+					<h3 class="our-team-h3">
+						portfolio
+					</h3>
 				</div>
 			</div>
 			
 			<div class="portfolio-container">
 				<div>
 					<a href="" class="portfolio-href">
-						<img class="portfolio-photo" src="img/images/portfolio_item_1.gif">
+						<img alt="zielona wtyczka" class="portfolio-photo" src="img/images/portfolio_item_1.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_2.gif">
+						<img alt="dom" class="portfolio-photo" src="img/images/portfolio_item_2.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_3.gif">
+						<img alt="macbook" class="portfolio-photo" src="img/images/portfolio_item_3.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_4.gif">
+						<img alt="ipad" class="portfolio-photo" src="img/images/portfolio_item_4.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_5.gif">
+						<img alt="iphone" class="portfolio-photo" src="img/images/portfolio_item_5.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_6.gif">
+						<img alt="narzędzia" class="portfolio-photo" src="img/images/portfolio_item_6.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_7.gif">
+						<img alt="zachód słońca" class="portfolio-photo" src="img/images/portfolio_item_7.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_8.gif">
+						<img alt="komputer" class="portfolio-photo" src="img/images/portfolio_item_8.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_9.gif">
+						<img alt="słonecznik" class="portfolio-photo" src="img/images/portfolio_item_9.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_10.gif">
+						<img alt="kobieta" class="portfolio-photo" src="img/images/portfolio_item_10.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_11.gif">
+						<img alt="kolejny telefon" class="portfolio-photo" src="img/images/portfolio_item_11.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_12.jpg">
+						<img alt="kamienica" class="portfolio-photo" src="img/images/portfolio_item_12.jpg">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_13.gif">
+						<img alt="komputer osobisty" class="portfolio-photo" src="img/images/portfolio_item_13.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_14.gif">
+						<img alt="wyrób piekarniczy" class="portfolio-photo" src="img/images/portfolio_item_14.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_15.gif">
+						<img alt="roślina w drugim tle" class="portfolio-photo" src="img/images/portfolio_item_15.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_16.gif">
+						<img alt="mężczyzna" class="portfolio-photo" src="img/images/portfolio_item_16.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_17.gif">
+						<img alt="nogi" class="portfolio-photo" src="img/images/portfolio_item_17.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_18.gif">
+						<img alt="pod wodą" class="portfolio-photo" src="img/images/portfolio_item_18.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_19.gif">
+						<img alt="niebo z dronem" class="portfolio-photo" src="img/images/portfolio_item_19.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_20.gif">
+						<img alt="pani z aparatem" class="portfolio-photo" src="img/images/portfolio_item_20.gif">
 					</a>
 				</div>
 				<div>
 					<a href="">
-						<img class="portfolio-photo" src="img/images/portfolio_item_21.jpg">
+						<img alt="iphone i ipad" class="portfolio-photo" src="img/images/portfolio_item_21.jpg">
 					</a>
 					</div>
 			</div>
@@ -282,8 +331,12 @@
 		<section class="brands">
 			<div class="our-brands-banner">
 				<div class="banner-frame">
-					<span class="banner-working-for">We working for</span>
-					<h3 class="our-brands-h3">BRANDS</h3>
+					<span class="banner-working-for">
+						We working for
+					</span>
+					<h3 class="our-brands-h3">
+						brands
+					</h3>
 				</div>
 			</div>
 				
@@ -291,136 +344,136 @@
 					<div class="brands-container">
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-1"></div>
+								<div class="brand-1" title="volskwagen"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-2"></div>
+								<div class="brand-2" title="Steam"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-3"></div>
+								<div class="brand-3" title="PlayStation"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-4"></div>
+								<div class="brand-4" title="Dell"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-5"></div>
+								<div class="brand-5" title="eaSports"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-6"></div>
+								<div class="brand-6" title="Intel"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-7"></div>
+								<div class="brand-7" title="kfc"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-8"></div>
+								<div class="brand-8" title="Nivea"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-9"></div>
+								<div class="brand-9" title="Steam"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-10"></div>
+								<div class="brand-10" title="Allegro"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-11"></div>
+								<div class="brand-11" title="UPS"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-12"></div>
+								<div class="brand-12" title="Wordpress"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-13"></div>
+								<div class="brand-13" title="Amd"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-14"></div>
+								<div class="brand-14" title="Android"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-15"></div>
+								<div class="brand-15" title="Apple"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-16"></div>
+								<div class="brand-16" title="Avast"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-17"></div>
+								<div class="brand-17" title="Bosch"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-18"></div>
+								<div class="brand-18" title="Cooler Master"></div>
 							</a>
 						</div><div class="one-brand-container">
 							<a href="#">
-								<div class="brand-19"></div>
+								<div class="brand-19" title="Hewlett Packard"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-20"></div>
+								<div class="brand-20" title="HTML"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-21"></div>
+								<div class="brand-21" title="Instagram"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-22"></div>
+								<div class="brand-22" title="LG"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-23"></div>
+								<div class="brand-23" title="Mbank"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-24"></div>
+								<div class="brand-24" title="Microsoft"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-25"></div>
+								<div class="brand-25" title="Mistubishi"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-26"></div>
+								<div class="brand-26" title="Nike"></div>
 							</a>
 						</div>
 						<div class="one-brand-container">
 							<a href="#">
-								<div class="brand-27"></div>
+								<div class="brand-27" title="Shell"></div>
 							</a>
 						</div>	
 					</div>
@@ -429,24 +482,45 @@
 		<footer id="contact" class="footer">
 			<div class="contact-contact">
 				<div class="our-team-footer">
-					<h5 class="our-team-h5">OUR TEAM</h5>
-					<p class="footer-p">We are the best<br>company in the<br>entire word</p>
+					<h5 class="our-team-h5">
+						our team
+					</h5>
+					<p class="footer-p">
+						We are the best<br>company in the<br>entire word
+					</p>
 				</div>
 				<div class="about-footer">
-					<h5 class="about-h5">ABOUT</h5>
-					<p class="about-p">We are the best<br>company in the<br>entire word</p>
+					<h5 class="about-h5">
+						about
+					</h5>
+					<p class="about-p">
+						We are the best<br>company in the<br>entire word
+					</p>
 				</div>
 				<div class="contact-footer">
-					<h5 class="contact-h5">CONTACT</h5>
+					<h5 class="contact-h5">
+						contact
+					</h5>
 					<adress class="adress">
-						<a href:"mailto:free@template.com">free@template.com</a><br>
-						www.freetemplate.com<br>
-						<a href:"tel:+48123456789">tel: +48 123 456 789</a>
+						<a href="mailto:free@template.com">
+							free@template.com
+						</a>
+						<br>
+						www.freetemplate.com
+						<br>
+						<a href="tel:+48123456789">
+							tel: +48 123 456 789
+						</a>
 					</adress>
 				</div>
 			</div>
-			<div class="copyright">Copyright &copy; DSGN free use</div>
+			<div class="copyright">
+				Copyright &copy; DSGN free use
+			</div>
 		</footer>
-	<script type="text/javascript" src="javascript.js"></script>
+		<!--scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
 	</body>
 </html>
