@@ -335,6 +335,7 @@ ol,li{
 	font-family:'Quicksand';
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-bottom:0;
 }
 .team-member-container{
 	display:flex;
@@ -761,3 +762,6 @@ ol,li{
 	}
 }
 
+.img-1{
+	width:90%;
+}
