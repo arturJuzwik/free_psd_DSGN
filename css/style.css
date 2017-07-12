@@ -499,7 +499,7 @@ ol,li{
 	opacity:0.2;
 	transition:opacity 1s;
 	filter:grayscale(80%);
-	transition:filter 1s linear;
+	transition:all 0.2s linear;
 }
 .one-brand-container:hover{
 	opacity:1;
