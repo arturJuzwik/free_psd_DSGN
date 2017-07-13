@@ -1,20 +1,18 @@
 a,a:hover{
 	color:inherit;
+	text-decoration:none;
 }
 html,body{
 	min-height: 100%;
 	width:100%;
-	margin:0;
-	padding:0;
-	
 	font-family:"Quicksand";
+	color:black;
+	padding:0;
+	margin:0;
 }
 body{
 	padding-top:70px;	
 }
-/********
-Bootstrap overwrite:
-*********/
 .container-fluid{
 	padding:0;
 }
@@ -22,45 +20,33 @@ Bootstrap overwrite:
 	border:none;
 	margin-bottom:0;
 }
-/********
-end of Bootstrap overwriting
-********/
-
 .bar{
 	height:80px;
 	background-color:#ffffff;
 	display:flex;
-	align-content: flex-start;
+	align-content:flex-start;
 	justify-content:space-between;
 }
 .dsgnLogo{
-	text-transform: uppercase;
-	border:solid;
-	border-color:#f9a39c;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-top-left-radius: 15px;
-	border-width:2px;
-	text-align: center;
+	text-transform:uppercase;
+	border:2px solid #f9a39c;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	text-align:center;
 	padding:3px 10px 0 10px;
-	margin: 21px 5px 5px 25px;
+	margin:21px 5px 5px 25px;
 	display:inline-block;
 	width:100px;
 	height:40px;
 	font-size:20px;
-	font-family:'Quicksand';
-	font-size:20px;
 	font-weight: 300;
-	color:black;
 }
-
 .socialElement{
-display:inline-block;
-margin-top:30px;
-margin-left:auto;
-order:2;
+	display:inline-block;
+	margin:30px 0 0 auto;
 }
-.socialElement > a{
+.socialElement>a{
 	padding:10px 15px 15px 15px;
 }
 .socialElement>a:last-child{
@@ -78,7 +64,6 @@ order:2;
 	background-color: #101010;
 	height:100%;
 	width:25%;
-	order:3;
 }
 .menu-wrap{
 	padding:18px;
@@ -98,7 +83,7 @@ order:2;
 .menu-button{
 	width:30px;
 	height:5px;
-	background-color: white;
+	background-color:white;
 	border:none;
 	position:relative;
 	left:20px;
@@ -113,7 +98,6 @@ order:2;
 	position:relative;
 	left:-6px;
 	top:10px;
-	color:orange;
 }
 .menu-button::after{
 	content:"";
@@ -127,53 +111,46 @@ order:2;
 	border:none;
 }
 .menu-content{
-	display: block;
+	display:block;
 	position:absolute;
 	width:200px;
 	height:150px;
-	background-color: #101010;
+	background-color:#101010;
 	right:0;
 	top:-280px;
-	text-align: right;
+	text-align:right;
 	font-size:20px;
 	font-weight:700;
-	opacity: 0;
-	transition: opacity 1s;
-	z-index: 102;
 }
 .show{
-	opacity:1;
 	top:80px;
-	transition: top 0.5s;
-}
-a:hover{
-	text-decoration:none;
+	transition:top 0.5s;
 }
 li{
 	padding-right:20px;
 }
 ol,li{
-	text-transform: uppercase;
-	list-style-type: none;
+	text-transform:uppercase;
+	list-style-type:none;
 	color:white;
-	font-weight: 200;
-	font-family: quicksand;
+	font-weight:200;
+	font-family:quicksand;
 }
 .slider{
 	background-image: url(../img/images/Free-psd-template-desktop_02.jpg);
 	background-repeat:no-repeat;
+	background-size:cover;
 	color:white;
-	background-size: cover;
 	width:100%;
 	min-height:89vh;
 	display:flex;
 	align-items:center;
-	justify-content: center;
-	flex-direction: column;
+	justify-content:center;
+	flex-direction:column;
 }
 .slider-h2{
 	text-align:center;
-	font-size: 30px;
+	font-size:30px;
 	width:100%;
 }
 .slider-h2:before, .slider-h2:after,.banner-meet-us:before, .banner-meet-us:after,.banner-working-for:after,.banner-working-for:before{
@@ -194,12 +171,12 @@ ol,li{
 	left:0.5em;
 }
 .slider-span{
-	text-transform: uppercase;
+	text-transform:uppercase;
 	font-size:72px;
 	margin-top:-15px;
 }
 .slider-button{
-	text-transform: uppercase;
+	text-transform:uppercase;
 	margin-top:20px;
 	background:none;
 	border:1px solid white;
@@ -207,7 +184,6 @@ ol,li{
 	border-radius:25px;
 	font-size:18px;
 	transition:background-color .5s ease;
-	transition:color .5s ease;
 }
 .slider-button:hover{
 	background-color:white;
@@ -233,21 +209,17 @@ ol,li{
 }
 .progress-bars-section{
 	min-height:475px;
-	background: white;
 	display:flex;
 	justify-content:space-around;
-	padding-top:80px;
+	padding-top:130px;
 }
 .progress-bars-section>div{
 	height:218px;
 	width:218px;
-	margin-top:50px;
 }
 .progress-bars-section>div>p{
 	margin-top:45px !important;
 	margin-bottom: 20px;
-	color:black;
-	font-family: 'Quicksand';
 	text-align:center;
 	padding: 0 15px 0 15px;
 }
@@ -259,6 +231,7 @@ ol,li{
 }
 #label-1,#label-2,#label-3{
 	display:none;
+	text-transform: uppercase;
 }
 .label{
 	position:absolute;
@@ -268,16 +241,11 @@ ol,li{
 	text-align:center;
 	color:#5e5e5e;
 	font-size:18px;
-	font-family:'Quicksand';
 	font-weight:500;
 	display:block !important;
 }
-#label-1,#label-2,#label-3{
-	text-transform: uppercase;
-}
 #circle-p1,#circle-p2,#circle-p3{
 	display:none;
-	transition: opacity 5s;
 }
 .circle-show{
 	display:block !important;
@@ -285,30 +253,36 @@ ol,li{
 .progressbar-text{
 	font-size:72px;
 	margin-top:-15px !important;
-	font-family:'Quicksand';
 	font-weight:700;
 }
 .our-team{
 	padding-top:78px;
 	margin-top:50px;
 }
-.our-team-banner{
-	background-image: url('../img/images/ourTeam.jpg');
+.our-team-banner,.portfolio-banner,.our-brands-banner{
+	background-image:url('../img/images/ourTeam.jpg');
 	background-size:cover;
 	background-repeat: no-repeat;
 	height:300px;
 	width:100%;
-	margin-bottom:20px;
+	margin: 0 0 0 0;
 	display:flex;
 	justify-content:center;
 	align-items: center;
 }
+.portfolio-banner{
+	background-image:url(../img/images/projects.jpg);
+}
+.our-brands-banner{
+	background-image:url(../img/images/brands.jpg);
+	margin:50px 0 0 0;
+}
 .banner-frame{
 	display:flex;
 	justify-content:center;
-	flex-direction: column;
-	text-align: center;
-	border: 2px solid white;
+	flex-direction:column;
+	text-align:center;
+	border:2px solid white;
 	width:75%;
 	height:66.6666%;
 	color:white;
@@ -332,8 +306,7 @@ ol,li{
 .our-team-h3,.our-brands-h3{
 	font-size:48px;
 	margin-top:-5px;
-	font-family:'Quicksand';
-	font-weight: 700;
+	font-weight:700;
 	text-transform: uppercase;
 	margin-bottom:0;
 }
@@ -365,7 +338,7 @@ ol,li{
 	border-bottom: 69px solid transparent;
 	border-right:69px solid white;
 }
-.photo-frame-left{
+.photo-frame-left,.photo-frame-right{
 	border: 2px solid white;
 	border-right-style:none;
 	position:relative;
@@ -375,20 +348,13 @@ ol,li{
 	left:20px;
 }
 .photo-frame-right{
-	border: 2px solid white;
+	border-right-style:2px solid white;
 	border-left-style:none;
 	position:relative;
-	width:568px;
-	height:260px;
 	top:20px;
-}
-.adrianna-photo{
-	background-image: url(../img/images/adrianna_photo.jpg);
-	height:300px;
-	width:588px;
+	left:0;
 }
 .team-member-name{
-	font-family:'Quicksand';
 	font-weight: 500;
 	font-size:36px;
 	margin:50px 0 0 0;
@@ -406,13 +372,7 @@ ol,li{
 .occupation-description{
 	margin-top:30px;
 	font-size:20px;
-	font-family: 'Quicksand';
 	font-weight: 500;
-}
-.olivia-photo{
-	background-image: url(../img/images/olivia_photo.gif);
-	height:300px;
-	width:588px;
 }
 .olivia-text,.taylor-text{
 	border-right-style:none;
@@ -440,24 +400,22 @@ ol,li{
 	height:300px;
 	width:588px;
 }
+.olivia-photo{
+	background-image: url(../img/images/olivia_photo.gif);
+	height:300px;
+	width:588px;
+}
+.adrianna-photo{
+	background-image: url(../img/images/adrianna_photo.jpg);
+	height:300px;
+	width:588px;
+}
 /** portfolio **/
 .portfolio{
 	padding-top:59px;
 }
-.portfolio-banner{
-	background-image:url(../img/images/projects.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
-	height:300px;
-	width:100%;
-	margin:20px 0 0 0;
-	display:flex;
-	justify-content:center;
-	align-items: center;
-}
 .portfolio-check-out{
 	font-size:18px;
-	font-family:"Quicksand";
 	font-weight:400;
 	margin-top:20px;
 }
@@ -479,17 +437,6 @@ ol,li{
 }
 .portfolio-photo:hover{
 	filter:saturate(300%);
-}
-.our-brands-banner{
-	background-image:url(../img/images/brands.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
-	height:300px;
-	width:100%;
-	margin:50px 0 0 0;
-	display:flex;
-	justify-content:center;
-	align-items: center;
 }
 .brands-center{
 	margin-top:50px;
@@ -594,18 +541,7 @@ ol,li{
 	color:#2a2a29;
 	padding-top:20px;
 }
-
-
-
-
-
-
-
-
 /*media queries*/
-
-
-
 @media (min-width:737px) and (max-width:1216px){
 	.portfolio-container>div{
 		flex-basis:180px;
@@ -746,8 +682,8 @@ ol,li{
 }
 @media (min-width:0px) and (max-width:496px){
 	.portfolio-container>div{
-	flex-basis:150px;
-	max-height:200px;
+		flex-basis:150px;
+		max-height:200px;
 	}
 	.occupation-description{
 		margin-top:10px;
@@ -760,8 +696,4 @@ ol,li{
 	dsgnLogo{
 		margin-left:5px;
 	}
-}
-
-.img-1{
-	width:90%;
 }
